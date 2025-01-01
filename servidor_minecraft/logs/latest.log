@@ -1,139 +1,50 @@
-[01Jan2025 21:33:54.001] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmlserver, --fml.forgeVersion, 33.0.61, --fml.mcpVersion, 20200812.004259, --fml.mcVersion, 1.16.2, --fml.forgeGroup, net.minecraftforge, nogui]
-[01Jan2025 21:33:54.006] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 7.0.1+78+master.e9771d8 starting: java version 11.0.25 by Ubuntu
-[01Jan2025 21:33:54.476] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
-[01Jan2025 21:33:54.529] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8 Source=file:/workspaces/Chileuwu/servidor_minecraft/libraries/org/spongepowered/mixin/0.8/mixin-0.8.jar Service=ModLauncher Env=SERVER
-[01Jan2025 21:33:55.395] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
-[01Jan2025 21:33:55.895] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmlserver' with arguments [--gameDir, ., nogui]
-[01Jan2025 21:34:01.786] [modloading-worker-3/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 33.0.61, for MC 1.16.2 with MCP 20200812.004259
-[01Jan2025 21:34:01.789] [modloading-worker-3/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v33.0.61 Initialized
-[01Jan2025 21:34:02.384] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
-[01Jan2025 21:34:03.356] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: BETA Current: 33.0.61 Target: 33.0.61
-[01Jan2025 21:34:07.466] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', name='PROD'
-[01Jan2025 21:34:08.270] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[01Jan2025 21:34:08.274] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[01Jan2025 21:34:08.299] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[01Jan2025 21:34:08.301] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[01Jan2025 21:34:08.303] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[01Jan2025 21:34:08.309] [main/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, forge-1.16.2-33.0.61-universal.jar
-[01Jan2025 21:34:09.974] [Worker-Main-4/INFO] [net.minecraft.item.crafting.RecipeManager/]: Loaded 7 recipes
-[01Jan2025 21:34:10.755] [Worker-Main-4/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 927 advancements
-[01Jan2025 21:34:14.209] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.16.2
-[01Jan2025 21:34:14.209] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[01Jan2025 21:34:14.210] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[01Jan2025 21:34:14.210] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Generating keypair
-[01Jan2025 21:34:14.542] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[01Jan2025 21:34:14.583] [Server thread/INFO] [net.minecraft.network.NetworkSystem/]: Using epoll channel type
-[01Jan2025 21:34:14.794] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[01Jan2025 21:34:14.794] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[01Jan2025 21:34:14.795] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[01Jan2025 21:34:14.795] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[01Jan2025 21:34:14.857] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[01Jan2025 21:34:15.190] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[01Jan2025 21:34:18.852] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[01Jan2025 21:34:18.853] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[01Jan2025 21:34:18.854] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[01Jan2025 21:34:18.854] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[01Jan2025 21:34:18.855] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[01Jan2025 21:34:18.855] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[01Jan2025 21:34:18.856] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[01Jan2025 21:34:18.856] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[01Jan2025 21:34:19.311] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[01Jan2025 21:34:19.875] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 4680 ms
-[01Jan2025 21:34:19.877] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (5.049s)! For help, type "help"
-[01Jan2025 21:35:46.465] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@47889be6
-[01Jan2025 21:35:46.489] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: luis8317[/0:0:0:0:0:0:0:1%0:35132] logged in with entity id 203 at (79.69999998807907, 62.0, 192.00039266994864)
-[01Jan2025 21:35:46.501] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: luis8317 joined the game
-[01Jan2025 21:35:46.544] [Netty Epoll Server IO #1/ERROR] [net.minecraft.command.arguments.ArgumentTypes/]: Could not serialize net.minecraftforge.server.command.ModIdArgument@3482ef7 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
-[01Jan2025 21:35:46.546] [Netty Epoll Server IO #1/ERROR] [net.minecraft.command.arguments.ArgumentTypes/]: Could not serialize net.minecraftforge.server.command.EnumArgument@1b575cff (class net.minecraftforge.server.command.EnumArgument) - will not be sent to client!
-[01Jan2025 21:37:30.439] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: luis8317 has made the advancement [Acquire Hardware]
-[01Jan2025 21:41:17.090] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: luis8317 lost connection: Disconnected
-[01Jan2025 21:41:17.091] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: luis8317 left the game
-[01Jan2025 21:41:17.144] [Server thread/WARN] [net.minecraft.network.NetworkManager/]: handleDisconnection() called twice
-[01Jan2025 21:45:28.786] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /advancement (grant|revoke)
-[01Jan2025 21:45:28.787] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /attribute <target> <attribute> (base|get|modifier)
-[01Jan2025 21:45:28.787] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /ban <targets> [<reason>]
-[01Jan2025 21:45:28.788] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /ban-ip <target> [<reason>]
-[01Jan2025 21:45:28.788] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /banlist [ips|players]
-[01Jan2025 21:45:28.788] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /bossbar (add|get|list|remove|set)
-[01Jan2025 21:45:28.789] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /clear [<targets>]
-[01Jan2025 21:45:28.789] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /clone <begin> <end> <destination> [filtered|masked|replace]
-[01Jan2025 21:45:28.789] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /config showfile <mod> <type>
-[01Jan2025 21:45:28.789] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /data (get|merge|modify|remove)
-[01Jan2025 21:45:28.790] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /datapack (disable|enable|list)
-[01Jan2025 21:45:28.790] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /debug (report|start|stop)
-[01Jan2025 21:45:28.791] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /defaultgamemode (adventure|creative|spectator|survival)
-[01Jan2025 21:45:28.791] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /deop <targets>
-[01Jan2025 21:45:28.791] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /difficulty [easy|hard|normal|peaceful]
-[01Jan2025 21:45:28.792] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /effect (clear|give)
-[01Jan2025 21:45:28.792] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /enchant <targets> <enchantment> [<level>]
-[01Jan2025 21:45:28.792] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /execute (align|anchored|as|at|facing|if|in|positioned|rotated|run|store|unless)
-[01Jan2025 21:45:28.793] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /experience (add|query|set)
-[01Jan2025 21:45:28.793] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /fill <from> <to> <block> [destroy|hollow|keep|outline|replace]
-[01Jan2025 21:45:28.793] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /forceload (add|query|remove)
-[01Jan2025 21:45:28.794] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /forge (dimensions|entity|generate|mods|setdimension|tps|track)
-[01Jan2025 21:45:28.794] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /function <name>
-[01Jan2025 21:45:28.794] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /gamemode (adventure|creative|spectator|survival)
-[01Jan2025 21:45:28.795] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /gamerule (announceAdvancements|commandBlockOutput|disableElytraMovementCheck|disableRaids|doDaylightCycle|doEntityDrops|doFireTick|doImmediateRespawn|doInsomnia|doLimitedCrafting|doMobLoot|doMobSpawning|doPatrolSpawning|doTileDrops|doTraderSpawning|doWeatherCycle|drowningDamage|fallDamage|fireDamage|forgiveDeadPlayers|keepInventory|logAdminCommands|maxCommandChainLength|maxEntityCramming|mobGriefing|naturalRegeneration|randomTickSpeed|reducedDebugInfo|sendCommandFeedback|showDeathMessages|spawnRadius|spectatorsGenerateChunks|universalAnger)
-[01Jan2025 21:45:28.795] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /give <targets> <item> [<count>]
-[01Jan2025 21:45:28.796] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /help [<command>]
-[01Jan2025 21:45:28.796] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /kick <targets> [<reason>]
-[01Jan2025 21:45:28.797] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /kill [<targets>]
-[01Jan2025 21:45:28.797] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /list [uuids]
-[01Jan2025 21:45:28.798] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /locate (bastion_remnant|buried_treasure|desert_pyramid|endcity|fortress|igloo|jungle_pyramid|mansion|mineshaft|monument|nether_fossil|ocean_ruin|pillager_outpost|ruined_portal|shipwreck|stronghold|swamp_hut|village)
-[01Jan2025 21:45:28.799] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /locatebiome <biome>
-[01Jan2025 21:45:28.799] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /loot (give|insert|replace|spawn)
-[01Jan2025 21:45:28.799] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /me <action>
-[01Jan2025 21:45:28.800] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /msg <targets> <message>
-[01Jan2025 21:45:28.800] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /op <targets>
-[01Jan2025 21:45:28.801] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /pardon <targets>
-[01Jan2025 21:45:28.801] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /pardon-ip <target>
-[01Jan2025 21:45:28.801] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /particle <name> [<pos>]
-[01Jan2025 21:45:28.801] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /playsound <sound> (ambient|block|hostile|master|music|neutral|player|record|voice|weather)
-[01Jan2025 21:45:28.802] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /recipe (give|take)
-[01Jan2025 21:45:28.802] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /reload
-[01Jan2025 21:45:28.802] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /replaceitem (block|entity)
-[01Jan2025 21:45:28.802] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /save-all [flush]
-[01Jan2025 21:45:28.802] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /save-off
-[01Jan2025 21:45:28.803] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /save-on
-[01Jan2025 21:45:28.803] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /say <message>
-[01Jan2025 21:45:28.803] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /schedule (clear|function)
-[01Jan2025 21:45:28.803] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /scoreboard (objectives|players)
-[01Jan2025 21:45:28.803] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /seed
-[01Jan2025 21:45:28.804] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /setblock <pos> <block> [destroy|keep|replace]
-[01Jan2025 21:45:28.804] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /setidletimeout <minutes>
-[01Jan2025 21:45:28.804] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /setworldspawn [<pos>]
-[01Jan2025 21:45:28.804] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /spawnpoint [<targets>]
-[01Jan2025 21:45:28.804] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /spectate [<target>]
-[01Jan2025 21:45:28.804] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /spreadplayers <center> <spreadDistance> <maxRange> (under|<respectTeams>)
-[01Jan2025 21:45:28.805] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /stop
-[01Jan2025 21:45:28.805] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /stopsound <targets> [*|ambient|block|hostile|master|music|neutral|player|record|voice|weather]
-[01Jan2025 21:45:28.805] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /summon <entity> [<pos>]
-[01Jan2025 21:45:28.805] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /tag <targets> (add|list|remove)
-[01Jan2025 21:45:28.805] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /team (add|empty|join|leave|list|modify|remove)
-[01Jan2025 21:45:28.806] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /teammsg <message>
-[01Jan2025 21:45:28.806] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /teleport (<destination>|<location>|<targets>)
-[01Jan2025 21:45:28.806] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /tell -> msg
-[01Jan2025 21:45:28.806] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /tellraw <targets> <message>
-[01Jan2025 21:45:28.806] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /time (add|query|set)
-[01Jan2025 21:45:28.807] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /title <targets> (actionbar|clear|reset|subtitle|times|title)
-[01Jan2025 21:45:28.807] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /tm -> teammsg
-[01Jan2025 21:45:28.807] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /tp -> teleport
-[01Jan2025 21:45:28.807] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /trigger <objective> [add|set]
-[01Jan2025 21:45:28.807] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /w -> msg
-[01Jan2025 21:45:28.808] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /weather (clear|rain|thunder)
-[01Jan2025 21:45:28.808] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /whitelist (add|list|off|on|reload|remove)
-[01Jan2025 21:45:28.808] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /worldborder (add|center|damage|get|set|warning)
-[01Jan2025 21:45:28.808] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /xp -> experience
-[01Jan2025 21:48:00.783] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Stopping the server
-[01Jan2025 21:48:00.832] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[01Jan2025 21:48:00.833] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[01Jan2025 21:48:00.833] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[01Jan2025 21:48:00.834] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[01Jan2025 21:48:01.000] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[01Jan2025 21:48:01.001] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[01Jan2025 21:48:01.001] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[01Jan2025 21:48:01.002] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[01Jan2025 21:48:01.003] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[01Jan2025 21:48:01.014] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[01Jan2025 21:48:01.023] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[01Jan2025 21:48:01.023] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[01Jan2025 22:04:39.164] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmlserver, --fml.forgeVersion, 33.0.61, --fml.mcpVersion, 20200812.004259, --fml.mcVersion, 1.16.2, --fml.forgeGroup, net.minecraftforge, nogui]
+[01Jan2025 22:04:39.167] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 7.0.1+78+master.e9771d8 starting: java version 11.0.25 by Ubuntu
+[01Jan2025 22:04:39.331] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFineTransformationService.onLoad
+[01Jan2025 22:04:39.332] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFine ZIP file: /workspaces/Chileuwu/servidor_minecraft/mods/OptiFine-1.16.2_HD_U_G5.jar
+[01Jan2025 22:04:39.334] [main/INFO] [optifine.OptiFineTransformer/]: Target.PRE_CLASS is available
+[01Jan2025 22:04:39.442] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
+[01Jan2025 22:04:39.493] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8 Source=file:/workspaces/Chileuwu/servidor_minecraft/libraries/org/spongepowered/mixin/0.8/mixin-0.8.jar Service=ModLauncher Env=SERVER
+[01Jan2025 22:04:39.500] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFineTransformationService.initialize
+[01Jan2025 22:04:39.874] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
+[01Jan2025 22:04:39.984] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
+[01Jan2025 22:04:39.992] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
+[01Jan2025 22:04:40.000] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
+[01Jan2025 22:04:40.169] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFineTransformationService.transformers
+[01Jan2025 22:04:40.180] [main/INFO] [optifine.OptiFineTransformer/]: Targets: 302
+[01Jan2025 22:04:41.374] [main/INFO] [optifine.OptiFineTransformationService/]: additionalClassesLocator: [optifine., net.optifine.]
+[01Jan2025 22:04:41.417] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmlserver' with arguments [--gameDir, ., nogui]
+[01Jan2025 22:04:41.722] [main/FATAL] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screen/Screen for invalid dist DEDICATED_SERVER
+[01Jan2025 22:04:41.724] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1050]: java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+[01Jan2025 22:04:41.724] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1050]: 	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:39)
+[01Jan2025 22:04:41.725] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1050]: 	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:54)
+[01Jan2025 22:04:41.726] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1050]: 	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:72)
+[01Jan2025 22:04:41.727] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1050]: 	at cpw.mods.modlauncher.Launcher.run(Launcher.java:81)
+[01Jan2025 22:04:41.727] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1050]: 	at cpw.mods.modlauncher.Launcher.main(Launcher.java:65)
+[01Jan2025 22:04:41.727] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1050]: 	at net.minecraftforge.server.ServerMain$Runner.runLauncher(ServerMain.java:63)
+[01Jan2025 22:04:41.728] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1050]: 	at net.minecraftforge.server.ServerMain$Runner.access$100(ServerMain.java:60)
+[01Jan2025 22:04:41.729] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1050]: 	at net.minecraftforge.server.ServerMain.main(ServerMain.java:57)
+[01Jan2025 22:04:41.730] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1059]: Caused by: java.lang.reflect.InvocationTargetException
+[01Jan2025 22:04:41.730] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1059]: 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[01Jan2025 22:04:41.730] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1059]: 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[01Jan2025 22:04:41.731] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1059]: 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[01Jan2025 22:04:41.731] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1059]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+[01Jan2025 22:04:41.732] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1059]: 	at net.minecraftforge.fml.loading.FMLServerLaunchProvider.lambda$launchService$0(FMLServerLaunchProvider.java:51)
+[01Jan2025 22:04:41.732] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1059]: 	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37)
+[01Jan2025 22:04:41.732] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1059]: 	... 7 more
+[01Jan2025 22:04:41.733] [main/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:648]: Caused by: java.lang.ExceptionInInitializerError
+[01Jan2025 22:04:41.733] [main/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:648]: 	at net.minecraft.crash.CrashReport.func_71504_g(CrashReport.java:101)
+[01Jan2025 22:04:41.734] [main/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:648]: 	at net.minecraft.crash.CrashReport.<init>(CrashReport.java:54)
+[01Jan2025 22:04:41.735] [main/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:648]: 	at net.minecraft.crash.CrashReport.func_230188_h_(CrashReport.java:425)
+[01Jan2025 22:04:41.735] [main/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:648]: 	at net.minecraft.server.Main.main(Main.java:92)
+[01Jan2025 22:04:41.736] [main/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:648]: 	... 13 more
+[01Jan2025 22:04:41.736] [main/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:671]: Caused by: java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screen/Screen for invalid dist DEDICATED_SERVER
+[01Jan2025 22:04:41.737] [main/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:671]: 	at net.minecraftforge.fml.loading.RuntimeDistCleaner.processClassWithFlags(RuntimeDistCleaner.java:71)
+[01Jan2025 22:04:41.737] [main/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:671]: 	at cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:85)
+[01Jan2025 22:04:41.738] [main/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:671]: 	at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:119)
+[01Jan2025 22:04:41.738] [main/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:671]: 	at cpw.mods.modlauncher.TransformingClassLoader$DelegatedClassLoader.findClass(TransformingClassLoader.java:256)
+[01Jan2025 22:04:41.738] [main/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:671]: 	at cpw.mods.modlauncher.TransformingClassLoader.loadClass(TransformingClassLoader.java:135)
+[01Jan2025 22:04:41.739] [main/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:671]: 	at cpw.mods.modlauncher.TransformingClassLoader.loadClass(TransformingClassLoader.java:97)
+[01Jan2025 22:04:41.740] [main/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:671]: 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+[01Jan2025 22:04:41.741] [main/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:671]: 	at net.optifine.reflect.Reflector.<clinit>(Reflector.java:182)
+[01Jan2025 22:04:41.741] [main/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:671]: 	... 17 more
