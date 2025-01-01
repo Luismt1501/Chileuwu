@@ -1,0 +1,51 @@
+[01Jan2025 21:33:54.001] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmlserver, --fml.forgeVersion, 33.0.61, --fml.mcpVersion, 20200812.004259, --fml.mcVersion, 1.16.2, --fml.forgeGroup, net.minecraftforge, nogui]
+[01Jan2025 21:33:54.006] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 7.0.1+78+master.e9771d8 starting: java version 11.0.25 by Ubuntu
+[01Jan2025 21:33:54.476] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
+[01Jan2025 21:33:54.529] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8 Source=file:/workspaces/Chileuwu/servidor_minecraft/libraries/org/spongepowered/mixin/0.8/mixin-0.8.jar Service=ModLauncher Env=SERVER
+[01Jan2025 21:33:55.395] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
+[01Jan2025 21:33:55.895] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmlserver' with arguments [--gameDir, ., nogui]
+[01Jan2025 21:34:01.786] [modloading-worker-3/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 33.0.61, for MC 1.16.2 with MCP 20200812.004259
+[01Jan2025 21:34:01.789] [modloading-worker-3/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v33.0.61 Initialized
+[01Jan2025 21:34:02.384] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[01Jan2025 21:34:03.356] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: BETA Current: 33.0.61 Target: 33.0.61
+[01Jan2025 21:34:07.466] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', name='PROD'
+[01Jan2025 21:34:08.270] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[01Jan2025 21:34:08.274] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[01Jan2025 21:34:08.299] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[01Jan2025 21:34:08.301] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[01Jan2025 21:34:08.303] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[01Jan2025 21:34:08.309] [main/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, forge-1.16.2-33.0.61-universal.jar
+[01Jan2025 21:34:09.974] [Worker-Main-4/INFO] [net.minecraft.item.crafting.RecipeManager/]: Loaded 7 recipes
+[01Jan2025 21:34:10.755] [Worker-Main-4/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 927 advancements
+[01Jan2025 21:34:14.209] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.16.2
+[01Jan2025 21:34:14.209] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[01Jan2025 21:34:14.210] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[01Jan2025 21:34:14.210] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Generating keypair
+[01Jan2025 21:34:14.542] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[01Jan2025 21:34:14.583] [Server thread/INFO] [net.minecraft.network.NetworkSystem/]: Using epoll channel type
+[01Jan2025 21:34:14.794] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[01Jan2025 21:34:14.794] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[01Jan2025 21:34:14.795] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[01Jan2025 21:34:14.795] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[01Jan2025 21:34:14.857] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[01Jan2025 21:34:15.190] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[01Jan2025 21:34:18.852] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[01Jan2025 21:34:18.853] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[01Jan2025 21:34:18.854] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[01Jan2025 21:34:18.854] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[01Jan2025 21:34:18.855] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[01Jan2025 21:34:18.855] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[01Jan2025 21:34:18.856] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[01Jan2025 21:34:18.856] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[01Jan2025 21:34:19.311] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[01Jan2025 21:34:19.875] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 4680 ms
+[01Jan2025 21:34:19.877] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (5.049s)! For help, type "help"
+[01Jan2025 21:35:46.465] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@47889be6
+[01Jan2025 21:35:46.489] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: luis8317[/0:0:0:0:0:0:0:1%0:35132] logged in with entity id 203 at (79.69999998807907, 62.0, 192.00039266994864)
+[01Jan2025 21:35:46.501] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: luis8317 joined the game
+[01Jan2025 21:35:46.544] [Netty Epoll Server IO #1/ERROR] [net.minecraft.command.arguments.ArgumentTypes/]: Could not serialize net.minecraftforge.server.command.ModIdArgument@3482ef7 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[01Jan2025 21:35:46.546] [Netty Epoll Server IO #1/ERROR] [net.minecraft.command.arguments.ArgumentTypes/]: Could not serialize net.minecraftforge.server.command.EnumArgument@1b575cff (class net.minecraftforge.server.command.EnumArgument) - will not be sent to client!
+[01Jan2025 21:37:30.439] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: luis8317 has made the advancement [Acquire Hardware]
+[01Jan2025 21:41:17.090] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: luis8317 lost connection: Disconnected
+[01Jan2025 21:41:17.091] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: luis8317 left the game
+[01Jan2025 21:41:17.144] [Server thread/WARN] [net.minecraft.network.NetworkManager/]: handleDisconnection() called twice
