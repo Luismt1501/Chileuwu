@@ -482,3 +482,97 @@
 [01Jan2025 21:41:17.090] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: luis8317 lost connection: Disconnected
 [01Jan2025 21:41:17.091] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: luis8317 left the game
 [01Jan2025 21:41:17.144] [Server thread/WARN] [net.minecraft.network.NetworkManager/]: handleDisconnection() called twice
+[01Jan2025 21:44:19.922] [Server thread/DEBUG] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: Gathering id map for writing to world save world
+[01Jan2025 21:45:28.786] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /advancement (grant|revoke)
+[01Jan2025 21:45:28.787] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /attribute <target> <attribute> (base|get|modifier)
+[01Jan2025 21:45:28.787] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /ban <targets> [<reason>]
+[01Jan2025 21:45:28.788] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /ban-ip <target> [<reason>]
+[01Jan2025 21:45:28.788] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /banlist [ips|players]
+[01Jan2025 21:45:28.788] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /bossbar (add|get|list|remove|set)
+[01Jan2025 21:45:28.789] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /clear [<targets>]
+[01Jan2025 21:45:28.789] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /clone <begin> <end> <destination> [filtered|masked|replace]
+[01Jan2025 21:45:28.789] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /config showfile <mod> <type>
+[01Jan2025 21:45:28.789] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /data (get|merge|modify|remove)
+[01Jan2025 21:45:28.790] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /datapack (disable|enable|list)
+[01Jan2025 21:45:28.790] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /debug (report|start|stop)
+[01Jan2025 21:45:28.791] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /defaultgamemode (adventure|creative|spectator|survival)
+[01Jan2025 21:45:28.791] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /deop <targets>
+[01Jan2025 21:45:28.791] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /difficulty [easy|hard|normal|peaceful]
+[01Jan2025 21:45:28.792] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /effect (clear|give)
+[01Jan2025 21:45:28.792] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /enchant <targets> <enchantment> [<level>]
+[01Jan2025 21:45:28.792] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /execute (align|anchored|as|at|facing|if|in|positioned|rotated|run|store|unless)
+[01Jan2025 21:45:28.793] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /experience (add|query|set)
+[01Jan2025 21:45:28.793] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /fill <from> <to> <block> [destroy|hollow|keep|outline|replace]
+[01Jan2025 21:45:28.793] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /forceload (add|query|remove)
+[01Jan2025 21:45:28.794] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /forge (dimensions|entity|generate|mods|setdimension|tps|track)
+[01Jan2025 21:45:28.794] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /function <name>
+[01Jan2025 21:45:28.794] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /gamemode (adventure|creative|spectator|survival)
+[01Jan2025 21:45:28.795] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /gamerule (announceAdvancements|commandBlockOutput|disableElytraMovementCheck|disableRaids|doDaylightCycle|doEntityDrops|doFireTick|doImmediateRespawn|doInsomnia|doLimitedCrafting|doMobLoot|doMobSpawning|doPatrolSpawning|doTileDrops|doTraderSpawning|doWeatherCycle|drowningDamage|fallDamage|fireDamage|forgiveDeadPlayers|keepInventory|logAdminCommands|maxCommandChainLength|maxEntityCramming|mobGriefing|naturalRegeneration|randomTickSpeed|reducedDebugInfo|sendCommandFeedback|showDeathMessages|spawnRadius|spectatorsGenerateChunks|universalAnger)
+[01Jan2025 21:45:28.795] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /give <targets> <item> [<count>]
+[01Jan2025 21:45:28.796] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /help [<command>]
+[01Jan2025 21:45:28.796] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /kick <targets> [<reason>]
+[01Jan2025 21:45:28.797] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /kill [<targets>]
+[01Jan2025 21:45:28.797] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /list [uuids]
+[01Jan2025 21:45:28.798] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /locate (bastion_remnant|buried_treasure|desert_pyramid|endcity|fortress|igloo|jungle_pyramid|mansion|mineshaft|monument|nether_fossil|ocean_ruin|pillager_outpost|ruined_portal|shipwreck|stronghold|swamp_hut|village)
+[01Jan2025 21:45:28.799] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /locatebiome <biome>
+[01Jan2025 21:45:28.799] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /loot (give|insert|replace|spawn)
+[01Jan2025 21:45:28.799] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /me <action>
+[01Jan2025 21:45:28.800] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /msg <targets> <message>
+[01Jan2025 21:45:28.800] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /op <targets>
+[01Jan2025 21:45:28.801] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /pardon <targets>
+[01Jan2025 21:45:28.801] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /pardon-ip <target>
+[01Jan2025 21:45:28.801] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /particle <name> [<pos>]
+[01Jan2025 21:45:28.801] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /playsound <sound> (ambient|block|hostile|master|music|neutral|player|record|voice|weather)
+[01Jan2025 21:45:28.802] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /recipe (give|take)
+[01Jan2025 21:45:28.802] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /reload
+[01Jan2025 21:45:28.802] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /replaceitem (block|entity)
+[01Jan2025 21:45:28.802] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /save-all [flush]
+[01Jan2025 21:45:28.802] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /save-off
+[01Jan2025 21:45:28.803] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /save-on
+[01Jan2025 21:45:28.803] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /say <message>
+[01Jan2025 21:45:28.803] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /schedule (clear|function)
+[01Jan2025 21:45:28.803] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /scoreboard (objectives|players)
+[01Jan2025 21:45:28.803] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /seed
+[01Jan2025 21:45:28.804] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /setblock <pos> <block> [destroy|keep|replace]
+[01Jan2025 21:45:28.804] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /setidletimeout <minutes>
+[01Jan2025 21:45:28.804] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /setworldspawn [<pos>]
+[01Jan2025 21:45:28.804] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /spawnpoint [<targets>]
+[01Jan2025 21:45:28.804] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /spectate [<target>]
+[01Jan2025 21:45:28.804] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /spreadplayers <center> <spreadDistance> <maxRange> (under|<respectTeams>)
+[01Jan2025 21:45:28.805] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /stop
+[01Jan2025 21:45:28.805] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /stopsound <targets> [*|ambient|block|hostile|master|music|neutral|player|record|voice|weather]
+[01Jan2025 21:45:28.805] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /summon <entity> [<pos>]
+[01Jan2025 21:45:28.805] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /tag <targets> (add|list|remove)
+[01Jan2025 21:45:28.805] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /team (add|empty|join|leave|list|modify|remove)
+[01Jan2025 21:45:28.806] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /teammsg <message>
+[01Jan2025 21:45:28.806] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /teleport (<destination>|<location>|<targets>)
+[01Jan2025 21:45:28.806] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /tell -> msg
+[01Jan2025 21:45:28.806] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /tellraw <targets> <message>
+[01Jan2025 21:45:28.806] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /time (add|query|set)
+[01Jan2025 21:45:28.807] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /title <targets> (actionbar|clear|reset|subtitle|times|title)
+[01Jan2025 21:45:28.807] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /tm -> teammsg
+[01Jan2025 21:45:28.807] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /tp -> teleport
+[01Jan2025 21:45:28.807] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /trigger <objective> [add|set]
+[01Jan2025 21:45:28.807] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /w -> msg
+[01Jan2025 21:45:28.808] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /weather (clear|rain|thunder)
+[01Jan2025 21:45:28.808] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /whitelist (add|list|off|on|reload|remove)
+[01Jan2025 21:45:28.808] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /worldborder (add|center|damage|get|set|warning)
+[01Jan2025 21:45:28.808] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /xp -> experience
+[01Jan2025 21:48:00.783] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Stopping the server
+[01Jan2025 21:48:00.832] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[01Jan2025 21:48:00.833] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[01Jan2025 21:48:00.833] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[01Jan2025 21:48:00.834] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[01Jan2025 21:48:01.000] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[01Jan2025 21:48:01.001] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[01Jan2025 21:48:01.001] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[01Jan2025 21:48:01.002] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[01Jan2025 21:48:01.003] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[01Jan2025 21:48:01.004] [Server thread/DEBUG] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: Gathering id map for writing to world save world
+[01Jan2025 21:48:01.014] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[01Jan2025 21:48:01.023] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[01Jan2025 21:48:01.023] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[01Jan2025 21:48:01.025] [Server thread/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing serverconfig directory : ./world/serverconfig
+[01Jan2025 21:48:01.025] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Unloading configs type SERVER
+[01Jan2025 21:48:01.025] [Thread-0/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Config file forge-server.toml changed, sending notifies
+[01Jan2025 21:48:01.026] [Thread-0/DEBUG] [net.minecraftforge.common.ForgeConfig/FORGEMOD]: Forge config just got changed on the file system!
