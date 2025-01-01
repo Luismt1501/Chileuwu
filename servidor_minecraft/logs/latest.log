@@ -1,50 +1,50 @@
-[01Jan2025 22:04:39.164] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmlserver, --fml.forgeVersion, 33.0.61, --fml.mcpVersion, 20200812.004259, --fml.mcVersion, 1.16.2, --fml.forgeGroup, net.minecraftforge, nogui]
-[01Jan2025 22:04:39.167] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 7.0.1+78+master.e9771d8 starting: java version 11.0.25 by Ubuntu
-[01Jan2025 22:04:39.331] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFineTransformationService.onLoad
-[01Jan2025 22:04:39.332] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFine ZIP file: /workspaces/Chileuwu/servidor_minecraft/mods/OptiFine-1.16.2_HD_U_G5.jar
-[01Jan2025 22:04:39.334] [main/INFO] [optifine.OptiFineTransformer/]: Target.PRE_CLASS is available
-[01Jan2025 22:04:39.442] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
-[01Jan2025 22:04:39.493] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8 Source=file:/workspaces/Chileuwu/servidor_minecraft/libraries/org/spongepowered/mixin/0.8/mixin-0.8.jar Service=ModLauncher Env=SERVER
-[01Jan2025 22:04:39.500] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFineTransformationService.initialize
-[01Jan2025 22:04:39.874] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
-[01Jan2025 22:04:39.984] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
-[01Jan2025 22:04:39.992] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
-[01Jan2025 22:04:40.000] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
-[01Jan2025 22:04:40.169] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFineTransformationService.transformers
-[01Jan2025 22:04:40.180] [main/INFO] [optifine.OptiFineTransformer/]: Targets: 302
-[01Jan2025 22:04:41.374] [main/INFO] [optifine.OptiFineTransformationService/]: additionalClassesLocator: [optifine., net.optifine.]
-[01Jan2025 22:04:41.417] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmlserver' with arguments [--gameDir, ., nogui]
-[01Jan2025 22:04:41.722] [main/FATAL] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screen/Screen for invalid dist DEDICATED_SERVER
-[01Jan2025 22:04:41.724] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1050]: java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
-[01Jan2025 22:04:41.724] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1050]: 	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:39)
-[01Jan2025 22:04:41.725] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1050]: 	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:54)
-[01Jan2025 22:04:41.726] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1050]: 	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:72)
-[01Jan2025 22:04:41.727] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1050]: 	at cpw.mods.modlauncher.Launcher.run(Launcher.java:81)
-[01Jan2025 22:04:41.727] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1050]: 	at cpw.mods.modlauncher.Launcher.main(Launcher.java:65)
-[01Jan2025 22:04:41.727] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1050]: 	at net.minecraftforge.server.ServerMain$Runner.runLauncher(ServerMain.java:63)
-[01Jan2025 22:04:41.728] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1050]: 	at net.minecraftforge.server.ServerMain$Runner.access$100(ServerMain.java:60)
-[01Jan2025 22:04:41.729] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1050]: 	at net.minecraftforge.server.ServerMain.main(ServerMain.java:57)
-[01Jan2025 22:04:41.730] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1059]: Caused by: java.lang.reflect.InvocationTargetException
-[01Jan2025 22:04:41.730] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1059]: 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-[01Jan2025 22:04:41.730] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1059]: 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-[01Jan2025 22:04:41.731] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1059]: 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-[01Jan2025 22:04:41.731] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1059]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-[01Jan2025 22:04:41.732] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1059]: 	at net.minecraftforge.fml.loading.FMLServerLaunchProvider.lambda$launchService$0(FMLServerLaunchProvider.java:51)
-[01Jan2025 22:04:41.732] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1059]: 	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37)
-[01Jan2025 22:04:41.732] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1059]: 	... 7 more
-[01Jan2025 22:04:41.733] [main/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:648]: Caused by: java.lang.ExceptionInInitializerError
-[01Jan2025 22:04:41.733] [main/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:648]: 	at net.minecraft.crash.CrashReport.func_71504_g(CrashReport.java:101)
-[01Jan2025 22:04:41.734] [main/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:648]: 	at net.minecraft.crash.CrashReport.<init>(CrashReport.java:54)
-[01Jan2025 22:04:41.735] [main/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:648]: 	at net.minecraft.crash.CrashReport.func_230188_h_(CrashReport.java:425)
-[01Jan2025 22:04:41.735] [main/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:648]: 	at net.minecraft.server.Main.main(Main.java:92)
-[01Jan2025 22:04:41.736] [main/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:648]: 	... 13 more
-[01Jan2025 22:04:41.736] [main/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:671]: Caused by: java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screen/Screen for invalid dist DEDICATED_SERVER
-[01Jan2025 22:04:41.737] [main/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:671]: 	at net.minecraftforge.fml.loading.RuntimeDistCleaner.processClassWithFlags(RuntimeDistCleaner.java:71)
-[01Jan2025 22:04:41.737] [main/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:671]: 	at cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:85)
-[01Jan2025 22:04:41.738] [main/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:671]: 	at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:119)
-[01Jan2025 22:04:41.738] [main/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:671]: 	at cpw.mods.modlauncher.TransformingClassLoader$DelegatedClassLoader.findClass(TransformingClassLoader.java:256)
-[01Jan2025 22:04:41.738] [main/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:671]: 	at cpw.mods.modlauncher.TransformingClassLoader.loadClass(TransformingClassLoader.java:135)
-[01Jan2025 22:04:41.739] [main/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:671]: 	at cpw.mods.modlauncher.TransformingClassLoader.loadClass(TransformingClassLoader.java:97)
-[01Jan2025 22:04:41.740] [main/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:671]: 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
-[01Jan2025 22:04:41.741] [main/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:671]: 	at net.optifine.reflect.Reflector.<clinit>(Reflector.java:182)
-[01Jan2025 22:04:41.741] [main/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:671]: 	... 17 more
+[01Jan2025 22:06:45.313] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmlserver, --fml.forgeVersion, 33.0.61, --fml.mcpVersion, 20200812.004259, --fml.mcVersion, 1.16.2, --fml.forgeGroup, net.minecraftforge, nogui]
+[01Jan2025 22:06:45.317] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 7.0.1+78+master.e9771d8 starting: java version 11.0.25 by Ubuntu
+[01Jan2025 22:06:45.475] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFineTransformationService.onLoad
+[01Jan2025 22:06:45.476] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFine ZIP file: /workspaces/Chileuwu/servidor_minecraft/mods/OptiFine-1.16.2_HD_U_G5.jar
+[01Jan2025 22:06:45.478] [main/INFO] [optifine.OptiFineTransformer/]: Target.PRE_CLASS is available
+[01Jan2025 22:06:45.596] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
+[01Jan2025 22:06:45.651] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8 Source=file:/workspaces/Chileuwu/servidor_minecraft/libraries/org/spongepowered/mixin/0.8/mixin-0.8.jar Service=ModLauncher Env=SERVER
+[01Jan2025 22:06:45.658] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFineTransformationService.initialize
+[01Jan2025 22:06:46.036] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
+[01Jan2025 22:06:46.135] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
+[01Jan2025 22:06:46.143] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
+[01Jan2025 22:06:46.153] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
+[01Jan2025 22:06:46.335] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFineTransformationService.transformers
+[01Jan2025 22:06:46.347] [main/INFO] [optifine.OptiFineTransformer/]: Targets: 302
+[01Jan2025 22:06:47.559] [main/INFO] [optifine.OptiFineTransformationService/]: additionalClassesLocator: [optifine., net.optifine.]
+[01Jan2025 22:06:47.596] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmlserver' with arguments [--gameDir, ., nogui]
+[01Jan2025 22:06:47.978] [main/FATAL] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screen/Screen for invalid dist DEDICATED_SERVER
+[01Jan2025 22:06:47.979] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1050]: java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+[01Jan2025 22:06:47.980] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1050]: 	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:39)
+[01Jan2025 22:06:47.980] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1050]: 	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:54)
+[01Jan2025 22:06:47.980] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1050]: 	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:72)
+[01Jan2025 22:06:47.981] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1050]: 	at cpw.mods.modlauncher.Launcher.run(Launcher.java:81)
+[01Jan2025 22:06:47.981] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1050]: 	at cpw.mods.modlauncher.Launcher.main(Launcher.java:65)
+[01Jan2025 22:06:47.981] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1050]: 	at net.minecraftforge.server.ServerMain$Runner.runLauncher(ServerMain.java:63)
+[01Jan2025 22:06:47.982] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1050]: 	at net.minecraftforge.server.ServerMain$Runner.access$100(ServerMain.java:60)
+[01Jan2025 22:06:47.982] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1050]: 	at net.minecraftforge.server.ServerMain.main(ServerMain.java:57)
+[01Jan2025 22:06:47.983] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1059]: Caused by: java.lang.reflect.InvocationTargetException
+[01Jan2025 22:06:47.983] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1059]: 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[01Jan2025 22:06:47.983] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1059]: 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[01Jan2025 22:06:47.984] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1059]: 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[01Jan2025 22:06:47.984] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1059]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+[01Jan2025 22:06:47.984] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1059]: 	at net.minecraftforge.fml.loading.FMLServerLaunchProvider.lambda$launchService$0(FMLServerLaunchProvider.java:51)
+[01Jan2025 22:06:47.985] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1059]: 	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37)
+[01Jan2025 22:06:47.985] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1059]: 	... 7 more
+[01Jan2025 22:06:47.986] [main/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:648]: Caused by: java.lang.ExceptionInInitializerError
+[01Jan2025 22:06:47.986] [main/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:648]: 	at net.minecraft.crash.CrashReport.func_71504_g(CrashReport.java:101)
+[01Jan2025 22:06:47.986] [main/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:648]: 	at net.minecraft.crash.CrashReport.<init>(CrashReport.java:54)
+[01Jan2025 22:06:47.987] [main/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:648]: 	at net.minecraft.crash.CrashReport.func_230188_h_(CrashReport.java:425)
+[01Jan2025 22:06:47.987] [main/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:648]: 	at net.minecraft.server.Main.main(Main.java:92)
+[01Jan2025 22:06:47.987] [main/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:648]: 	... 13 more
+[01Jan2025 22:06:47.988] [main/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:671]: Caused by: java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screen/Screen for invalid dist DEDICATED_SERVER
+[01Jan2025 22:06:47.988] [main/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:671]: 	at net.minecraftforge.fml.loading.RuntimeDistCleaner.processClassWithFlags(RuntimeDistCleaner.java:71)
+[01Jan2025 22:06:47.988] [main/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:671]: 	at cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:85)
+[01Jan2025 22:06:47.989] [main/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:671]: 	at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:119)
+[01Jan2025 22:06:47.989] [main/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:671]: 	at cpw.mods.modlauncher.TransformingClassLoader$DelegatedClassLoader.findClass(TransformingClassLoader.java:256)
+[01Jan2025 22:06:47.989] [main/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:671]: 	at cpw.mods.modlauncher.TransformingClassLoader.loadClass(TransformingClassLoader.java:135)
+[01Jan2025 22:06:47.990] [main/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:671]: 	at cpw.mods.modlauncher.TransformingClassLoader.loadClass(TransformingClassLoader.java:97)
+[01Jan2025 22:06:47.990] [main/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:671]: 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+[01Jan2025 22:06:47.991] [main/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:671]: 	at net.optifine.reflect.Reflector.<clinit>(Reflector.java:182)
+[01Jan2025 22:06:47.991] [main/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:671]: 	... 17 more
