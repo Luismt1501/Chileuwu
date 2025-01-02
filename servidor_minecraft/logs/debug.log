@@ -1891,3 +1891,8 @@ Caused by: java.io.FileNotFoundException: http://maxhenkel.de/update/gravestone.
 [02Jan2025 23:01:53.661] [Netty Epoll Server IO #7/ERROR] [net.minecraft.command.arguments.ArgumentTypes/]: Could not serialize net.minecraftforge.server.command.ModIdArgument@3536e257 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
 [02Jan2025 23:01:53.661] [Netty Epoll Server IO #7/ERROR] [net.minecraft.command.arguments.ArgumentTypes/]: Could not serialize net.minecraftforge.server.command.EnumArgument@1ebf3325 (class net.minecraftforge.server.command.EnumArgument) - will not be sent to client!
 [02Jan2025 23:02:05.172] [Server thread/DEBUG] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: Gathering id map for writing to world save world
+[02Jan2025 23:07:05.759] [Server thread/DEBUG] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: Gathering id map for writing to world save world
+[02Jan2025 23:07:41.987] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <CataLaGata> zzzz
+[02Jan2025 23:07:57.840] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Set the time to 1000
+[02Jan2025 23:11:54.547] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <HaruGlan> tengo un gato!!
+[02Jan2025 23:12:05.848] [Server thread/DEBUG] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: Gathering id map for writing to world save world
