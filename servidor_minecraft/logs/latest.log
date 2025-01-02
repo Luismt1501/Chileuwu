@@ -168,3 +168,11 @@ Caused by: java.io.FileNotFoundException: http://maxhenkel.de/update/gravestone.
 [02Jan2025 23:21:03.043] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: CataLaGata joined the game
 [02Jan2025 23:21:03.055] [Netty Epoll Server IO #1/ERROR] [net.minecraft.command.arguments.ArgumentTypes/]: Could not serialize net.minecraftforge.server.command.ModIdArgument@3536e257 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
 [02Jan2025 23:21:03.056] [Netty Epoll Server IO #1/ERROR] [net.minecraft.command.arguments.ArgumentTypes/]: Could not serialize net.minecraftforge.server.command.EnumArgument@1ebf3325 (class net.minecraftforge.server.command.EnumArgument) - will not be sent to client!
+[02Jan2025 23:23:27.739] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <HaruGlan> zzz
+[02Jan2025 23:23:37.564] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <CataLaGata> no podemos mimir
+[02Jan2025 23:23:42.506] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <HaruGlan> F
+[02Jan2025 23:23:45.458] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <CataLaGata> que la Belen no se desconecto
+[02Jan2025 23:23:52.936] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <CataLaGata> :c
+[02Jan2025 23:27:31.536] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: HaruGlan was slain by Zombie
+[02Jan2025 23:27:33.297] [Netty Epoll Server IO #0/ERROR] [net.minecraft.command.arguments.ArgumentTypes/]: Could not serialize net.minecraftforge.server.command.ModIdArgument@3536e257 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[02Jan2025 23:27:33.297] [Netty Epoll Server IO #0/ERROR] [net.minecraft.command.arguments.ArgumentTypes/]: Could not serialize net.minecraftforge.server.command.EnumArgument@1ebf3325 (class net.minecraftforge.server.command.EnumArgument) - will not be sent to client!
