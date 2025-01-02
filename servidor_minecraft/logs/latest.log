@@ -124,3 +124,27 @@ Caused by: java.io.FileNotFoundException: http://maxhenkel.de/update/gravestone.
 [02Jan2025 22:37:30.648] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Luismt150 joined the game
 [02Jan2025 22:37:30.660] [Netty Epoll Server IO #5/ERROR] [net.minecraft.command.arguments.ArgumentTypes/]: Could not serialize net.minecraftforge.server.command.ModIdArgument@3536e257 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
 [02Jan2025 22:37:30.660] [Netty Epoll Server IO #5/ERROR] [net.minecraft.command.arguments.ArgumentTypes/]: Could not serialize net.minecraftforge.server.command.EnumArgument@1ebf3325 (class net.minecraftforge.server.command.EnumArgument) - will not be sent to client!
+[02Jan2025 22:45:35.661] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <HaruGlan> zzz
+[02Jan2025 22:45:41.039] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <HaruGlan> a mimir
+[02Jan2025 22:46:04.591] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Set the time to 1000
+[02Jan2025 22:53:45.224] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <HaruGlan> alguien tiene polvo de hueso?
+[02Jan2025 22:53:54.113] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Luismt150> nop
+[02Jan2025 22:53:59.197] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <HaruGlan> f
+[02Jan2025 22:55:17.562] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Luismt150> q pro
+[02Jan2025 22:55:25.074] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Luismt150> y como
+[02Jan2025 22:56:20.826] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <HaruGlan> zzz
+[02Jan2025 22:57:01.440] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Set the time to 1000
+[02Jan2025 23:00:03.487] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: CataLaGata lost connection: Timed out
+[02Jan2025 23:00:03.487] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: CataLaGata left the game
+[02Jan2025 23:00:13.645] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@26cbfd6
+[02Jan2025 23:00:13.651] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: sofix_pro17[/0:0:0:0:0:0:0:1%0:54920] logged in with entity id 10756 at (-71.9181431986505, 67.5625, -38.26223883589396)
+[02Jan2025 23:00:13.653] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: sofix_pro17 joined the game
+[02Jan2025 23:00:13.666] [Netty Epoll Server IO #6/ERROR] [net.minecraft.command.arguments.ArgumentTypes/]: Could not serialize net.minecraftforge.server.command.ModIdArgument@3536e257 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[02Jan2025 23:00:13.667] [Netty Epoll Server IO #6/ERROR] [net.minecraft.command.arguments.ArgumentTypes/]: Could not serialize net.minecraftforge.server.command.EnumArgument@1ebf3325 (class net.minecraftforge.server.command.EnumArgument) - will not be sent to client!
+[02Jan2025 23:01:32.990] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Luismt150 lost connection: Timed out
+[02Jan2025 23:01:32.990] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Luismt150 left the game
+[02Jan2025 23:01:53.644] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@15189e75
+[02Jan2025 23:01:53.647] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: CataLaGata[/0:0:0:0:0:0:0:1%0:44328] logged in with entity id 11142 at (-51.85582894143071, 63.0, 4.809662431429344)
+[02Jan2025 23:01:53.649] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: CataLaGata joined the game
+[02Jan2025 23:01:53.661] [Netty Epoll Server IO #7/ERROR] [net.minecraft.command.arguments.ArgumentTypes/]: Could not serialize net.minecraftforge.server.command.ModIdArgument@3536e257 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[02Jan2025 23:01:53.661] [Netty Epoll Server IO #7/ERROR] [net.minecraft.command.arguments.ArgumentTypes/]: Could not serialize net.minecraftforge.server.command.EnumArgument@1ebf3325 (class net.minecraftforge.server.command.EnumArgument) - will not be sent to client!
