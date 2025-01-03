@@ -210,3 +210,47 @@ Caused by: java.io.FileNotFoundException: http://maxhenkel.de/update/gravestone.
 [02Jan2025 23:52:02.484] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <CataLaGata> se acosto conmigo tio
 [02Jan2025 23:52:13.043] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <CataLaGata> voy y vuelvo
 [02Jan2025 23:52:38.818] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <HaruGlan> jaja
+[02Jan2025 23:53:34.882] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <HaruGlan> mira
+[02Jan2025 23:53:37.475] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <CataLaGata> a mimir
+[02Jan2025 23:53:44.000] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Iron_Girl_03> duerman mierda
+[02Jan2025 23:53:45.860] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <CataLaGata> aaaaaw
+[02Jan2025 23:53:50.532] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <CataLaGata> JAJJAJAJAJAJA
+[02Jan2025 23:53:53.435] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <HaruGlan> ronronea
+[02Jan2025 23:55:09.085] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: sofix_pro17 fell from a high place
+[02Jan2025 23:55:10.548] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: CataLaGata fell from a high place
+[02Jan2025 23:55:15.567] [Netty Epoll Server IO #1/ERROR] [net.minecraft.command.arguments.ArgumentTypes/]: Could not serialize net.minecraftforge.server.command.ModIdArgument@3536e257 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[02Jan2025 23:55:15.568] [Netty Epoll Server IO #1/ERROR] [net.minecraft.command.arguments.ArgumentTypes/]: Could not serialize net.minecraftforge.server.command.EnumArgument@1ebf3325 (class net.minecraftforge.server.command.EnumArgument) - will not be sent to client!
+[02Jan2025 23:55:18.367] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <HaruGlan> a
+[02Jan2025 23:55:18.568] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <CataLaGata> M
+[02Jan2025 23:55:22.836] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <CataLaGata> noo
+[02Jan2025 23:55:23.155] [Netty Epoll Server IO #6/ERROR] [net.minecraft.command.arguments.ArgumentTypes/]: Could not serialize net.minecraftforge.server.command.ModIdArgument@3536e257 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[02Jan2025 23:55:23.155] [Netty Epoll Server IO #6/ERROR] [net.minecraft.command.arguments.ArgumentTypes/]: Could not serialize net.minecraftforge.server.command.EnumArgument@1ebf3325 (class net.minecraftforge.server.command.EnumArgument) - will not be sent to client!
+[02Jan2025 23:55:25.776] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <CataLaGata> kjsdhfkjashd
+[02Jan2025 23:55:36.562] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <sofix_pro17> AJJAJAJ
+[02Jan2025 23:55:40.813] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <HaruGlan> increible
+[02Jan2025 23:56:00.496] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <CataLaGata> mas encima sacamos las camas y respauneamos a la xuxua
+[02Jan2025 23:56:02.337] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <HaruGlan> salieron en el spawn?
+[02Jan2025 23:56:05.986] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <HaruGlan> xD
+[02Jan2025 23:56:11.444] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <sofix_pro17> no :(
+[02Jan2025 23:56:14.435] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Iron_Girl_03 lost connection: Timed out
+[02Jan2025 23:56:14.436] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Iron_Girl_03 left the game
+[02Jan2025 23:56:17.347] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <HaruGlan> F
+[02Jan2025 23:58:17.433] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: sofix_pro17 has made the advancement [Isn't It Iron Pick]
+[02Jan2025 23:58:17.435] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: sofix_pro17 has made the advancement [Cover Me With Diamonds]
+[02Jan2025 23:58:30.934] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: CataLaGata has made the advancement [Suit Up]
+[02Jan2025 23:58:40.591] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <HaruGlan> el gato se volvio loco por la cama de la belen
+[02Jan2025 23:59:47.387] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Stopping the server
+[02Jan2025 23:59:47.427] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[02Jan2025 23:59:47.428] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[02Jan2025 23:59:47.438] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: sofix_pro17 lost connection: Internal Exception: java.lang.StackOverflowError
+[02Jan2025 23:59:47.439] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: sofix_pro17 left the game
+[02Jan2025 23:59:47.442] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[02Jan2025 23:59:47.442] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[02Jan2025 23:59:47.995] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[02Jan2025 23:59:47.995] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[02Jan2025 23:59:47.996] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[02Jan2025 23:59:47.996] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[02Jan2025 23:59:47.997] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[02Jan2025 23:59:48.010] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[02Jan2025 23:59:48.025] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[02Jan2025 23:59:48.025] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
